@@ -185,6 +185,20 @@ To add a manager to this swarm, run 'docker swarm join-token manager' and follow
 
 
 
+#### View Worker Join Token:
+
+_On a manager node, run:_
+```
+docker swarm join-token worker
+```
+
+
+_Show Only the Token (no command text):_
+```
+docker swarm join-token -q worker
+```
+
+
 
 
 ### Add/Join Worker Nodes: 
